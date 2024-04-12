@@ -7,7 +7,6 @@ import { MdLogout, MdPerson } from "react-icons/md";
 import { ImCalendar } from "react-icons/im";
 import { FaFileImport, FaBoxesStacked, FaExclamation, FaTriangleExclamation  } from "react-icons/fa6";
 import { Poppins } from "next/font/google";
-import ChartPage from './ChartPage';
 
 const date = new Date();
 const poppins = Poppins({ subsets: ["latin"], weight: "400" });
@@ -118,7 +117,7 @@ export default function Container(props) {
         </div>
       </div>
       </div>
-      <ChartPage classes={props.classes}/>
+      {/* <ChartPage classes={props.classes}/> */}
     </div>
   )
 }
