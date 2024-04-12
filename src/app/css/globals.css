@@ -8,6 +8,14 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --green: #04AE73;
+  --greenLess: #04ae724b;
+  --white: #FCFAFD;
+  --gray: #808080;
+  --violet: #7E57C2;
+  --blue: #28B6F6;
+  --yellow: #FFC928;
+  --red: #EF3A5D;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -98,6 +106,9 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+ul{
+  list-style: none;
 }
 
 @media (prefers-color-scheme: dark) {
